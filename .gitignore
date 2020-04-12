@@ -1,2 +1,14 @@
 node_modules
 .DS_Store
+.vscode
+
+# Rollup
+dist
+
+# Yarn
+.yarn/*
+!.yarn/releases
+
+# Yarn (2.0+)
+!.yarn/plugins
+.pnp.*

@@ -2,7 +2,15 @@
   "name": "@constellation-ui/constellation",
   "description": "Constellation React component library",
   "version": "0.0.0",
-  "main": "src/index.js",
+  "main": "dist/index.ts",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "storybook": "start-storybook -p 6006"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/constellation-ui/constellation.git"
@@ -22,5 +30,39 @@
   "bugs": {
     "url": "https://github.com/constellation-ui/constellation/issues"
   },
-  "homepage": "https://github.com/constellation-ui/constellation#readme"
+  "homepage": "https://github.com/constellation-ui/constellation#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.2",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.6.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "stylelint": "^13.3.2",
+    "ts-loader": "^6.2.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  }
 }
