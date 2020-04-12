@@ -1,0 +1,26 @@
+{
+  "name": "@constellation-ui/constellation",
+  "description": "Constellation React component library",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constellation-ui/constellation.git"
+  },
+  "keywords": [
+    "constellation",
+    "constellation-ui",
+    "constellation-react",
+    "react",
+    "reactjs",
+    "react-components",
+    "react-component",
+    "component-library"
+  ],
+  "author": "Nima Dehnashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constellation-ui/constellation/issues"
+  },
+  "homepage": "https://github.com/constellation-ui/constellation#readme"
+}
