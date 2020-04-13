@@ -29,10 +29,11 @@ const rollupConfig = {
       extensions,
     }),
     typescript({
-      exclude: ['**/*.stories.tsx'],
       clean: true,
+      exclude: ['**/*.stories.tsx'],
+      rollupCommonJSResolveHack: true,
     }),
-    commonjs({ extensions }),
+    commonjs({ exclude: ['**/*.stories.tsx'], extensions }),
   ],
   external: [...Object.keys(pkg.dependencies || {})],
 };

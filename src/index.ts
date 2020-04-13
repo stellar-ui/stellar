@@ -1,3 +1,5 @@
-import MyComponent from './components/MyComponent/MyComponent';
+import Alert from './components/Alert/Alert';
+import Button from './components/Button/Button';
 
-export { MyComponent };
+export { Alert };
+export { Button };

@@ -9,6 +9,7 @@
     "jsx": "react",
     "declaration": true,
     "moduleResolution": "node",
+    "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
