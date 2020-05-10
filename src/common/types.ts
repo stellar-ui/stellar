@@ -1,1 +1,6 @@
-export type ColorClassifierType = 'success' | 'error' | 'info' | 'caution' | 'neutral';
+export type ColorClassifierType =
+  | 'success'
+  | 'error'
+  | 'info'
+  | 'caution'
+  | 'neutral';

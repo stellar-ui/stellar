@@ -1,7 +1,7 @@
 module.exports = {
   addons: ['@storybook/addon-docs'],
   stories: ['../src/**/*.stories.tsx'],
-  webpackFinal: async config => {
+  webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.(ts|tsx)$/,
       use: [
@@ -11,7 +11,7 @@ module.exports = {
         {
           loader: require.resolve('react-docgen-typescript-loader'),
         },
-      ]
+      ],
     });
     config.resolve.extensions.push('.ts', '.tsx');
     return config;

@@ -1,5 +1,19 @@
+# Ignore all files
 *
 
+# Include all folders
+!**/
+
+# Exclude certain folders
+.yarn/*
+dist/*
+node_modules/*
+
+# Include certain file types
+!*.css
+!*.html
 !*.js
 !*.json
-!/src/**/*
+!*.md
+!*.ts
+!*.tsx

@@ -3,4 +3,4 @@ import Alert from './Alert';
 
 export default { title: 'Alert' };
 
-export const defaultAlert = () => <Alert>Hello world</Alert>;
+export const defaultAlert = (): React.ReactNode => <Alert>Hello world</Alert>;

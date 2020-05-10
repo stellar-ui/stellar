@@ -7,7 +7,7 @@
   "jsnext:main": "dist/index.es.js",
   "scripts": {
     "build": "rollup -c",
-    "format": "prettier --write */**",
+    "format": "prettier --write .",
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006"
   },
@@ -71,6 +71,6 @@
   },
   "publishConfig": {
     "directory": "dist",
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   }
 }

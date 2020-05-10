@@ -1,4 +1,7 @@
-*
+# /node_modules/* in the project root is ignored by default
 
-!*.js
-!/src/**/*
+# Rollup
+dist/*
+
+# Data definition files
+**/*.d.ts
