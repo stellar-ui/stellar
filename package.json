@@ -60,7 +60,7 @@
     "stylelint": "^13.4.1",
     "ts-loader": "^7.0.3",
     "tslib": "^1.11.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.2"
   },
   "peerDependencies": {
     "react": "^16",
