@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.10.4",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.1.0",
-    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-docs": "^6.0.21",
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@types/classnames": "^2.2.10",
