@@ -54,7 +54,7 @@
     "eslint-plugin-react-hooks": "^4.0.5",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^16.13.1",
     "rollup": "^2.19.0",
