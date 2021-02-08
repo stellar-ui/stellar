@@ -5394,10 +5394,10 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
-fsevents@~2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
-  integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
+fsevents@~2.3.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -9393,12 +9393,12 @@ rollup-plugin-typescript2@^0.27.1:
     resolve "1.15.1"
     tslib "1.11.2"
 
-rollup@^2.19.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.19.0.tgz#6484868882281552b0dc33aa5bc5b36a9c920452"
-  integrity sha512-nny5Vs4jwY3vbQAXgOyU4ZDZqLvMKm/umnsVry/demVL6ve8ke1XhdpYE0eiWencASmx/qFPw6pP8P7MLJl9XA==
+rollup@^2.38.5:
+  version "2.38.5"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.38.5.tgz#be41ad4fe0c103a8794377afceb5f22b8f603d6a"
+  integrity sha512-VoWt8DysFGDVRGWuHTqZzT02J0ASgjVq/hPs9QcBOGMd7B+jfTr/iqMVEyOi901rE3xq+Deq66GzIT1yt7sGwQ==
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 rsvp@^4.8.4:
   version "4.8.5"
