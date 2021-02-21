@@ -7,7 +7,7 @@ export interface AlertProps {
 }
 
 const Alert: React.FC<AlertProps> = ({ children, type = 'neutral' }) => {
-  const resolvedClassName = classnames('cstl-alert', `cstl-alert-${type}`);
+  const resolvedClassName = classnames('slr-alert', `slr-alert-${type}`);
   return <div className={resolvedClassName}>{children}</div>;
 };
 

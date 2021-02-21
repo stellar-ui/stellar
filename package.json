@@ -1,6 +1,6 @@
 {
-  "name": "@constellation-ui/constellation",
-  "description": "Constellation React component library",
+  "name": "@stellar-ui/stellar",
+  "description": "Stellar React component library",
   "version": "0.0.0",
   "main": "dist/index.ts",
   "module": "dist/index.es.js",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/constellation-ui/constellation.git"
+    "url": "git://github.com/stellar-ui/stellar.git"
   },
   "keywords": [
-    "constellation",
-    "constellation-ui",
-    "constellation-react",
+    "stellar",
+    "stellar-ui",
+    "stellar-react",
     "react",
     "reactjs",
     "react-components",
@@ -31,9 +31,9 @@
   "author": "Nima Dehnashi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/constellation-ui/constellation/issues"
+    "url": "https://github.com/stellar-ui/stellar/issues"
   },
-  "homepage": "https://github.com/constellation-ui/constellation#readme",
+  "homepage": "https://github.com/stellar-ui/stellar#readme",
   "devDependencies": {
     "@babel/core": "^7.12.17",
     "@babel/preset-env": "^7.12.17",

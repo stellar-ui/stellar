@@ -16,9 +16,9 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
 }) => {
   const resolvedClassName = classnames(
-    'cstl-btn',
-    { 'cstl-btn-loading': loading },
-    { 'cstl-btn-disabled': disabled },
+    'slr-btn',
+    { 'slr-btn-loading': loading },
+    { 'slr-btn-disabled': disabled },
   );
   return (
     <button

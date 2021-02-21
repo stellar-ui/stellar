@@ -1,3 +1,3 @@
-# 🌌 Constellation React Component Library
+# 🌌 Stellar React Component Library
 
-Constellation is a React-based web component library. Stay tuned for more details.
+Stellar is a React-based web component library. Stay tuned for more details.
