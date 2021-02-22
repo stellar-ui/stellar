@@ -1,3 +1,207 @@
+:root {
+  --font-primary: "Jost", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-BlackItalic.eot');
+    src: url('assets/fonts/jost/Jost-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-BlackItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Bold.eot');
+    src: url('assets/fonts/jost/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Bold.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-ExtraBoldItalic.eot');
+    src: url('assets/fonts/jost/Jost-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-ExtraBoldItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Black.eot');
+    src: url('assets/fonts/jost/Jost-Black.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Black.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-BoldItalic.eot');
+    src: url('assets/fonts/jost/Jost-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-BoldItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-ExtraBold.eot');
+    src: url('assets/fonts/jost/Jost-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-ExtraBold.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-ExtraLight.eot');
+    src: url('assets/fonts/jost/Jost-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-ExtraLight.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Italic.eot');
+    src: url('assets/fonts/jost/Jost-Italic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Italic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Medium.eot');
+    src: url('assets/fonts/jost/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Medium.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-ExtraLightItalic.eot');
+    src: url('assets/fonts/jost/Jost-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-ExtraLightItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-MediumItalic.eot');
+    src: url('assets/fonts/jost/Jost-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-MediumItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-LightItalic.eot');
+    src: url('assets/fonts/jost/Jost-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-LightItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Light.eot');
+    src: url('assets/fonts/jost/Jost-Light.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Light.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-ThinItalic.eot');
+    src: url('assets/fonts/jost/Jost-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-ThinItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-SemiBold.eot');
+    src: url('assets/fonts/jost/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-SemiBold.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-SemiBoldItalic.eot');
+    src: url('assets/fonts/jost/Jost-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-SemiBoldItalic.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Regular.eot');
+    src: url('assets/fonts/jost/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Regular.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/jost/Jost-Thin.eot');
+    src: url('assets/fonts/jost/Jost-Thin.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/jost/Jost-Thin.woff2') format('woff2'),
+      url('assets/fonts/jost/Jost-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+}
