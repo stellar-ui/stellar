@@ -1,6 +1,7 @@
-export type ColorClassifierType =
-  | 'success'
-  | 'error'
-  | 'info'
-  | 'caution'
-  | 'neutral';
+export enum ColorClassifierType {
+  SUCCESS = 'success',
+  ERROR = 'error',
+  INFO = 'info',
+  CAUTION = 'caution',
+  NEUTRAL = 'neutral',
+}

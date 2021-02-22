@@ -1,18 +1,29 @@
-import * as React from 'react';
+import React from 'react';
 import Button from './Button';
 
 export default { title: 'Button' };
 
-export const defaultButton = (): React.ReactNode => (
+export const Default = (): React.ReactNode => (
   <Button onClick={(): void => console.log('button click')}>Hello world</Button>
 );
-export const loadingButton = (): React.ReactNode => (
+
+export const Loading = (): React.ReactNode => (
   <Button onClick={(): void => console.log('button click')} loading>
     Hello world
   </Button>
 );
-export const disabledButton = (): React.ReactNode => (
+
+export const Disabled = (): React.ReactNode => (
   <Button onClick={(): void => console.log('button click')} disabled>
+    Hello world
+  </Button>
+);
+
+export const CustomClassName = (): React.ReactNode => (
+  <Button
+    onClick={(): void => console.log('button click')}
+    className="my-custom-class"
+  >
     Hello world
   </Button>
 );

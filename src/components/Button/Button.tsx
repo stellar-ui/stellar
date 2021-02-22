@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import classnames from 'classnames';
 
 export interface ButtonProps {
@@ -6,12 +6,14 @@ export interface ButtonProps {
   type?: 'button' | 'reset' | 'submit';
   disabled?: boolean;
   loading?: boolean;
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
   type = 'button',
   disabled = false,
   loading = false,
+  className,
   children,
   onClick,
 }) => {
@@ -19,6 +21,7 @@ const Button: React.FC<ButtonProps> = ({
     'slr-btn',
     { 'slr-btn-loading': loading },
     { 'slr-btn-disabled': disabled },
+    className,
   );
   return (
     <button
