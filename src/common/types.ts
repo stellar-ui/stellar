@@ -1,4 +1,4 @@
-export enum ColorClassifierType {
+export enum ColorClassifier {
   SUCCESS = 'success',
   ERROR = 'error',
   INFO = 'info',
