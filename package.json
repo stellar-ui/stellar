@@ -58,7 +58,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^5.0.9",
+    "husky": "^5.2.0",
     "pinst": "^2.1.4",
     "postcss": "^8.2.6",
     "postcss-url": "^10.1.1",
