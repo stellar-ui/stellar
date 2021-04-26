@@ -69,7 +69,7 @@
     "rollup": "^2.39.0",
     "rollup-plugin-postcss": "^4.0.0",
     "rollup-plugin-typescript2": "^0.30.0",
-    "stylelint": "^13.11.0",
+    "stylelint": "^13.13.0",
     "tailwindcss": "^2.0.3",
     "ts-loader": "^8.0.17",
     "tslib": "^2.1.0",
