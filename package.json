@@ -40,7 +40,7 @@
     "@babel/preset-env": "^7.12.17",
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
-    "@storybook/addon-docs": "^6.2.0-alpha.32",
+    "@storybook/addon-docs": "^6.3.4",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^6.2.0-alpha.32",
     "@storybook/react": "^6.2.0-alpha.32",
