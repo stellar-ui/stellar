@@ -42,7 +42,7 @@
     "@rollup/plugin-node-resolve": "^11.2.0",
     "@storybook/addon-docs": "^6.2.0-alpha.32",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addons": "^6.2.0-alpha.32",
+    "@storybook/addons": "^6.3.4",
     "@storybook/react": "^6.2.0-alpha.32",
     "@types/classnames": "^2.2.11",
     "@types/react": "^17.0.2",
